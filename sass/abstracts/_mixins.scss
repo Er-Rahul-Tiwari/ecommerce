@@ -1,0 +1,96 @@
+@mixin clearfix {
+  &::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+@mixin absCenter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@mixin fixed {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+}
+
+@mixin sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+@mixin svg-2 {
+  width: 2rem;
+  height: 2rem;
+}
+
+@mixin topRight-0 {
+  top: 0px;
+  right: 0px;
+}
+
+@mixin margin($top, $right, $bottom, $left) {
+  margin: $top $right $bottom $left;
+}
+
+@mixin padding($top, $right, $bottom, $left) {
+  padding: $top $right $bottom $left;
+}
+
+@mixin centerFlex {
+  display: flex;
+  align-items: center;
+}
+
+@mixin gridAlign {
+  display: grid;
+  justify-content: end;
+  align-items: center;
+}
+
+@mixin gridCenter {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin gridItemCenter {
+  display: grid;
+  align-self: center;
+  justify-self: center;
+}
+
+@mixin boxRadius-4 {
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+@mixin boxShadow {
+  box-shadow: $shadow-14;
+}
+
+@mixin grid($num) {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax($num, 1fr));
+}
+
+@mixin gridRow($first, $Second) {
+  grid-row: $first / $Second;
+}
+
+@mixin gridColumn($first, $Second) {
+  grid-column: $first / $Second;
+}
+
+@mixin gridTemplate($first, $Second) {
+  display: grid;
+  grid-template-columns: repeat($first, $Second);
+}

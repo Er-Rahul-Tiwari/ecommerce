@@ -1,0 +1,41 @@
+%heading {
+  font-family: $display--primary;
+  font-weight: 400;
+}
+
+.heading-1 {
+  @extend %heading;
+  font-size: 4.5rem;
+  line-height: 1;
+}
+
+.heading-2 {
+  @extend %heading;
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 1;
+
+  &--white {
+    color: $color-white;
+  }
+}
+
+.heading-3 {
+  @extend %heading;
+  font-size: 2rem;
+  color: $color-primary;
+  text-transform: uppercase;
+}
+
+.heading-4 {
+  @extend %heading;
+  font-size: 1.9rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: pointer;
+}

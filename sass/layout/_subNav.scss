@@ -1,0 +1,71 @@
+.subNav {
+  grid-column: full-start / full-end;
+  background-color: $color-white;
+
+  padding: 0 8rem;
+
+  @media only screen and (max-width: $bp-large) {
+    padding: 1rem;
+    grid-template-columns: 1fr;
+  }
+
+  @include gridTemplate(2, 1fr);
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: $weight--600;
+  font-size: $font--11;
+
+  &__list {
+    @include padding(1.5rem, 0, 1.5rem, 0);
+    display: grid;
+    grid-auto-flow: column;
+
+    @media only screen and (max-width: $bp-large) {
+      @include padding(1rem, 0, 1rem, 0);
+      grid-row: 3/4;
+    }
+  }
+
+  &__link {
+    color: $color-c;
+  }
+
+  &__search {
+    justify-self: end;
+    align-items: center;
+    @include centerFlex;
+
+    @include gridTemplate(4, max-content);
+    grid-column-gap: 4rem;
+    height: 100%;
+
+    @media only screen and (max-width: $bp-large) {
+      grid-column-gap: 1rem;
+      grid-row: 4/5;
+    }
+  }
+
+  &__underLine {
+    height: 100%;
+    width: 1px;
+    border-right: 2px solid $color-f9;
+  }
+
+  &__group {
+    @include centerFlex;
+
+    &--input {
+      border: none;
+      @include padding(1rem, 0, 1rem, 1rem);
+
+      &::placeholder {
+        color: $color-c;
+        letter-spacing: 0.7px;
+      }
+    }
+  }
+
+  &__svg {
+    width: 2rem;
+  }
+}

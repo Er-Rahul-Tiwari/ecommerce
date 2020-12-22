@@ -1,0 +1,54 @@
+.seller {
+  grid-column: center-start / center-end;
+  background-color: $color-white;
+
+  @include boxRadius-4;
+
+  @media only screen and (max-width: $bp-large) {
+    grid-column: full-start / full-end;
+  }
+
+  &__doublePrice {
+    @include gridTemplate(2, 1fr);
+    grid-area: 1rem;
+  }
+
+  &__para {
+    border-bottom: 2px solid $color-f9;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 1.4rem;
+  }
+}
+
+.cards {
+  &__gap0 {
+    grid-gap: 0rem;
+  }
+}
+
+.card {
+  &__border0 {
+    border-radius: 0;
+    border-right: 2px solid $color-f9;
+
+    @media only screen and (max-width: $bp-large) {
+      border-bottom: 2px solid $color-f9;
+    }
+  }
+
+  &__price {
+    &--1 {
+      display: grid;
+      grid-column: 1/2;
+      justify-self: end;
+      color: $color-c;
+    }
+
+    &--2 {
+      display: grid;
+      grid-column: 2/3;
+      justify-self: start;
+    }
+  }
+}

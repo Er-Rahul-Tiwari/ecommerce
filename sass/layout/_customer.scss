@@ -1,0 +1,85 @@
+.customer {
+  grid-column: full-start / full-end;
+
+  padding: 7rem 14rem;
+  margin-top: 7rem;
+  background-color: $color-white;
+
+  @media only screen and (max-width: $bp-large) {
+    padding: 3rem 0;
+    margin-top: 2rem;
+  }
+
+  &__box {
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  &__heading {
+    font-size: 3rem;
+    font-weight: $weight--700;
+  }
+
+  &__text {
+    color: $color-c;
+    margin-top: 1rem;
+    font-weight: $weight--500;
+  }
+}
+
+.card {
+  &__grid {
+    justify-self: start;
+    grid-template-columns: max-content 1fr;
+    grid-column-gap: 2rem;
+    grid-row-gap: 0rem;
+    border-radius: 0;
+  }
+
+  &__img-customer {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    grid-column: 1/2;
+    grid-row: 1/3;
+
+    display: grid;
+    align-self: center;
+    justify-self: center;
+  }
+
+  &__name {
+    grid-column: 2/3;
+    font-size: $font--15;
+    font-weight: $weight--700;
+    display: grid;
+    justify-self: start;
+    align-self: end;
+
+    text-transform: capitalize;
+  }
+
+  &__role {
+    grid-column: 2/3;
+    color: $color-c;
+    font-size: $font--13;
+    font-style: italic;
+    font-weight: $weight--500;
+    display: grid;
+    justify-self: start;
+    align-self: start;
+    text-transform: capitalize;
+  }
+
+  &__comment {
+    grid-column: 1/-1;
+    margin-top: 1rem;
+    font-size: $font--15;
+    font-weight: $weight--600;
+    color: $color-7;
+    font-family: "Times New Roman", Times, serif;
+    text-align: left;
+    line-height: 1.4;
+  }
+}

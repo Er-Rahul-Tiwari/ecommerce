@@ -1,0 +1,76 @@
+.pagination {
+  grid-column: center-start / center-end;
+
+  margin: 6rem 0;
+  background-color: $color-white;
+  @include boxRadius-4;
+
+  display: grid;
+  grid-template-columns: max-content 1fr max-content;
+
+  @media only screen and (max-width: $bp-large) {
+    grid-column: full-start / full-end;
+    margin: 1rem 0;
+  }
+
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  &__left {
+    padding: 2rem 8rem;
+    border-right: 1px solid $color-f2;
+    @include centerFlex;
+
+    @media only screen and (max-width: $bp-large) {
+      padding: 1rem 2rem;
+    }
+  }
+
+  &__middle {
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    justify-content: center;
+
+    @media only screen and (max-width: $bp-large) {
+      transform: translateY(-1rem);
+    }
+  }
+
+  &__right {
+    padding: 2rem 8rem;
+    border-left: 1px solid $color-f2;
+    @include centerFlex;
+
+    @media only screen and (max-width: $bp-large) {
+      padding: 1rem 2rem;
+    }
+  }
+
+  &__num {
+    margin: 1rem;
+    width: 4rem;
+    height: 4rem;
+    cursor: pointer;
+
+    @media only screen and (max-width: $bp-large) {
+      width: 0.2rem;
+      height: 0.2rem;
+    }
+
+    span {
+      font-size: $font--12;
+    }
+  }
+
+  &__num:hover {
+    box-shadow: 0 0 3rem rgba($color-black, 0.2);
+    background-color: $color-white;
+  }
+
+  svg {
+    fill: $color-a;
+    width: 0.8rem;
+  }
+}

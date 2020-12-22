@@ -1,0 +1,149 @@
+.card3 {
+  grid-column: col-start 3 / center-end;
+  grid-row: 5 / 6;
+
+  @media only screen and (max-width: $bp-large) {
+    grid-column: full-start / full-end;
+    grid-row: 6/7;
+    margin-top: 1rem;
+  }
+}
+
+.cards {
+  display: grid;
+  @include grid(25rem);
+  grid-gap: 3rem;
+
+  @media only screen and (max-width: $bp-large) {
+    grid-gap: 1rem;
+  }
+}
+
+.card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 0.8rem;
+  padding: 4rem;
+  background-color: $color-white;
+  @include boxRadius-4;
+  overflow: hidden;
+  text-align: center;
+
+  &__img {
+    width: 100%;
+    grid-row: 1 / 2;
+    grid-column: 1 / -1;
+    z-index: 1;
+  }
+
+  &__heading {
+    @include gridCenter;
+    grid-column: 1 / -1;
+    text-transform: capitalize;
+    font-weight: $weight--700;
+    font-size: $font--15;
+  }
+
+  &__color {
+    grid-column: 1 / -1;
+    @include gridCenter;
+    text-transform: uppercase;
+    font-weight: $weight--700;
+    font-size: $font--11;
+    color: $color-c;
+    letter-spacing: 0.8px;
+  }
+
+  &__price {
+    grid-column: 1 / -1;
+    @include gridCenter;
+    text-transform: capitalize;
+    font-weight: $weight--700;
+    font-size: $font--14;
+  }
+
+  &__2 {
+    grid-column: span 2;
+    padding: 0;
+
+    @media only screen and (max-width: $bp-small) {
+      grid-column: span 1;
+    }
+
+    &__img {
+      width: 100%;
+      grid-column: 1/-1;
+      grid-row: 1/2;
+    }
+
+    &__price {
+      display: grid;
+      grid-row: 1/2;
+      grid-column: 1/-1;
+      z-index: 4;
+      align-self: start;
+      justify-self: start;
+      margin: 2rem;
+      background-color: rgba($color-black, 0.78);
+      color: $color-white;
+      @include boxRadius-4;
+      padding: 0.2rem 1rem;
+      font-size: $font--12;
+      font-weight: $weight--600;
+    }
+
+    &__heading {
+      text-transform: capitalize;
+      font-weight: $weight--700;
+      font-size: $font--15;
+      justify-self: start;
+    }
+
+    &__color {
+      grid-row: 3/4;
+      font-size: $font--11;
+      text-transform: uppercase;
+      font-weight: $weight--700;
+      color: $color-c;
+      letter-spacing: 0.8px;
+      justify-self: start;
+    }
+
+    &__box {
+      display: grid;
+      grid-auto-flow: column;
+      align-items: center;
+      justify-content: center;
+      padding: 1rem 2rem;
+
+      grid-template-columns: repeat(2, 1fr);
+
+      &--border {
+        border-radius: 10rem;
+        padding: 0 1rem;
+        text-align: center;
+        font-size: $font--11;
+        font-weight: $weight--600;
+        @include boxShadow;
+
+        display: grid;
+        align-self: center;
+        justify-self: end;
+        grid-template-columns: max-content 1fr max-content;
+
+        margin-right: 2rem;
+      }
+    }
+
+    &__gb,
+    &__buy {
+      padding: 0.5rem 1rem;
+    }
+
+    &__underLine {
+      height: 100%;
+      width: 1px;
+      border-right: 2px solid $color-d;
+    }
+  }
+}

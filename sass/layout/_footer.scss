@@ -1,0 +1,92 @@
+.footer {
+  grid-column: full-start/full-end;
+
+  padding: 5rem 10rem;
+  background-color: $color-primary-1;
+
+  @media only screen and (max-width: $bp-large) {
+    padding: 1.5rem;
+  }
+
+  &__top {
+    @include gridTemplate(3, 1fr);
+
+    @media only screen and (max-width: $bp-large) {
+      grid-template-columns: max-content;
+    }
+
+    align-self: start;
+    justify-self: start;
+    color: $color-c;
+
+    a {
+      color: $color-c;
+    }
+
+    &__logo {
+      display: grid;
+      justify-self: start;
+      align-self: center;
+      font-family: $display--logo;
+
+      @media only screen and (max-width: $bp-large) {
+        grid-row: 1/2;
+        padding: 1rem 0;
+      }
+    }
+  }
+
+  &__social {
+    display: grid;
+    justify-self: end;
+
+    @media only screen and (max-width: $bp-large) {
+      grid-row: 2 / 3;
+      padding: 1rem 0;
+      justify-self: start;
+    }
+  }
+
+  &__underLine {
+    border-bottom: 2px solid $color-2;
+    margin: 4rem 0;
+  }
+
+  &__bottom {
+    @include gridTemplate(2, 1fr);
+    margin-bottom: 4rem;
+  }
+
+  &__para {
+    font-size: $font--13;
+    font-weight: $weight--600;
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+
+    @media only screen and (max-width: $bp-large) {
+      grid-row: 1/2;
+      grid-column: 1 / span 2;
+    }
+  }
+
+  &__link {
+    display: grid;
+    grid-auto-flow: column;
+    justify-self: end;
+    padding: 0;
+    font-family: $display--primary;
+    font-style: normal;
+
+    @media only screen and (max-width: $bp-large) {
+      grid-row: 2 / 3;
+      grid-column: 1/-1;
+      justify-self: start;
+      padding: 1rem 0;
+    }
+  }
+
+  &__svg {
+    fill: $color-e;
+    width: 2rem;
+  }
+}

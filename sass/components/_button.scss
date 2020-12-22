@@ -1,0 +1,63 @@
+.btn {
+  &,
+  &:link,
+  &:visited {
+    box-sizing: border-box;
+    -webkit-appearance: none;
+
+    outline: none;
+    cursor: pointer;
+    border: none;
+
+    color: $color-primary;
+    font-size: 1.2rem;
+    font-weight: $weight--600;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0.4rem 1rem;
+    cursor: pointer;
+    transition: all 0.2s;
+    border-radius: 10rem;
+
+    border: 2px solid $color-e;
+    background-color: $color-white;
+
+    &:active,
+    &:focus {
+      border: 2px solid $color-primary;
+      outline: none;
+    }
+
+    &:hover {
+      border: 2px solid $color-a;
+    }
+  }
+}
+
+.btn-blue {
+  &,
+  &:link,
+  &:visited {
+    font-size: 1.2rem;
+    font-weight: $weight--600;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.2s;
+    border-radius: 10rem;
+
+    color: $color-white;
+    background-color: $color-blue;
+  }
+}
+
+input,
+select{
+
+  box-sizing: border-box;
+  -webkit-appearance: none;
+
+  outline: none;
+  cursor: pointer;
+  border: none;
+}

@@ -1,0 +1,59 @@
+.heros {
+  grid-column: full-start / full-end;
+  background-color: $color-primary-1;
+}
+
+.hero {
+  @include gridTemplate(2, 1fr);
+  @include padding(0, 10rem, 0, 10rem);
+
+  @media only screen and (max-width: $bp-large) {
+    @include padding(0, 1.5rem, 0, 1.5rem);
+  }
+
+  align-items: center;
+  justify-content: start;
+
+  &__para {
+    color: $color-f2;
+  }
+
+  &__content {
+    @media only screen and (max-width: $bp-large) {
+      grid-column: full-start / full-end;
+      padding: 5vw 0;
+
+      &--btn {
+        width: 20rem;
+        text-align: center;
+      }
+    }
+
+    padding: 0 10rem 0 5rem;
+    display: grid;
+    grid-row-gap: 3rem;
+    color: $color-a;
+
+    &--btn {
+      display: grid;
+      justify-self: start;
+      padding: 1rem 4rem;
+    }
+  }
+
+  &__picture {
+    @media only screen and (max-width: $bp-large) {
+      grid-column: full-start / full-end;
+
+      &--img {
+        width: 100%;
+      }
+    }
+
+    &--img {
+      width: 35rem;
+      border-radius: 4rem;
+      @include centerFlex;
+    }
+  }
+}

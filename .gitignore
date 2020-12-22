@@ -1,0 +1,8 @@
+server/node_modules
+server/package-lock.json
+
+client/node_modules
+client/package-lock.json
+client/.env
+client/src/views/.DS_Store
+node_modules

@@ -1,0 +1,64 @@
+.dropdown {
+  grid-column: center-start / col-end 2;
+  grid-row: 5 / 6;
+
+  margin-right: 3rem;
+
+  @media only screen and (max-width: $bp-large) {
+    grid-column: full-start / full-end;
+    grid-row: 5/6;
+    margin: 1rem 0rem 0 0;
+  }
+}
+
+.shorting {
+  background-color: $color-white;
+  padding: 1rem 0;
+  @include boxRadius-4;
+  overflow: hidden;
+
+  &__grid2 {
+    display: grid;
+    grid-template-columns: 1fr min-content;
+    grid-auto-flow: column;
+  }
+
+  &__heading {
+    font-size: $font--13;
+    text-transform: uppercase;
+    font-weight: $weight--600;
+    padding: 1rem;
+    border-top: 1px solid $color-f2;
+    border-bottom: 1px solid $color-f2;
+
+    &--1 {
+      grid-column: 1/2;
+    }
+
+    &--2 {
+      grid-column: 2/3;
+      justify-self: end;
+      width: 100%;
+    }
+  }
+
+  &__layout {
+    display: grid;
+    grid-template-columns: min-content 1fr min-content;
+    grid-column-gap: 1rem;
+    align-items: center;
+    padding: 1rem;
+  }
+
+  &__name {
+    font-size: $font--12;
+    text-transform: capitalize;
+    font-weight: $weight--700;
+  }
+
+  &__value {
+    font-size: $font--12;
+    font-weight: $weight--700;
+    color: $color-a;
+  }
+}

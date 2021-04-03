@@ -1,20 +1,15 @@
 {
-  "name": "grid_dashboard",
+  "name": "jsapiintegration",
   "version": "1.0.0",
   "description": "Grid Dashboard Design by Rahul Tiwari",
-  "main": "main.js",
+  "main": "index.html",
   "scripts": {
-    "watch:sass": "node-sass sass/main.scss css/style.css -w",
-    "devserver": "live-server",
-    "start": "npm-run-all --parallel devserver watch:sass",
-    "compile:sass": "node-sass sass/main.scss css/style.comp.css",
-    "prefix:css": "postcss --use autoprefixer -b 'last 10 versions' css/style.comp.css -o css/style.prefix.css",
-    "compress:css": "node-sass css/style.prefix.css css/style.css --output-style compressed",
-    "build:css": "npm-run-all compile:sass prefix:css compress:css"
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Er-Rahul-Tiwari/Grid_Dashboard.git"
+    "url": "git+https://github.com/Er-Rahul-Tiwari"
   },
   "keywords": [
     "Rahul1996@"
@@ -25,14 +20,11 @@
     "url": "https://github.com/Er-Rahul-Tiwari/Grid_Dashboard/issues"
   },
   "homepage": "https://github.com/Er-Rahul-Tiwari/Grid_Dashboard#readme",
-  "dependencies": {},
+  "dependencies": {
+    "parcel": "^2.0.0-beta.2",
+    "sass": "^1.32.8"
+  },
   "devDependencies": {
-    "autoprefixer": "^7.1.4",
-    "concat": "^1.0.3",
-    "live-server": "^1.2.1",
-    "node-sass": "^4.5.3",
-    "nodemon": "^2.0.6",
-    "npm-run-all": "^4.1.1",
-    "postcss-cli": "^4.1.1"
+    "@parcel/transformer-sass": "^2.0.0-beta.2"
   }
 }

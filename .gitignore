@@ -6,3 +6,5 @@ client/package-lock.json
 client/.env
 client/src/views/.DS_Store
 node_modules
+autogit
+parcel-cache

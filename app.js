@@ -1,3 +1,9 @@
+// import  icons from './img/icons'; // Parcel 1
+import  icons from 'url:./img/icons.svg'; // Parcel 2
+console.log(icons);
+
+const sellerContainer = document.querySelector('.seller');
+
 const showRecipes = async () => {
   try {
     //   Loading Recipe
@@ -26,6 +32,29 @@ const showRecipes = async () => {
 
     // Rendering Recipe
     const markup = `
-    
-  <section class="seller">
-    <p class='seller__para card__headi
+        <section class="seller">
+            <p class='seller__para card__heading'>
+                ${recipe.title}
+            </p>
+            <div class="cards cards__gap0">
+                <div class="card card__border0">
+                    <img class='card__img' style='width: 100px' src='${recipe.image}'>
+                    <p class="card__heading">${recipe.title}</p>
+                    <p class="card__color">${recipe.serving}</p>
+                    <span class="card__price card__price--1">
+                        <s>
+                        $ ${recipe.cookingTime}
+                        </s>
+                    </span>
+                    <span class="card__price card__price--2">$ ${recipe.ingredients[2].quantity}</span>
+                </div>
+            </div>
+        </div>
+    `;
+    sellerContainer.insertAdjacentHTML('afterbegin',markup);
+  } catch (err) {
+    alert(err);
+  }
+};
+
+showRecipes();

@@ -442,19 +442,21 @@ id) /*: string*/
 }
 
 },{}],"6fOLN":[function(require,module,exports) {
+var _urlImgIconsSvg = require('url:./img/icons.svg');
+var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+var _urlImgIconsSvgDefault = _parcelHelpers.interopDefault(_urlImgIconsSvg);
+// Parcel 2
+console.log(_urlImgIconsSvgDefault.default);
+const sellerContainer = document.querySelector('.seller');
 const showRecipes = async () => {
   try {
-    //   Loading Recipe
-    const res = await fetch(
-      "https://forkify-api.herokuapp.com/api/v2/recipes/5ed6604591c37cdc054bc886"
-    );
+    // Loading Recipe
+    const res = await fetch("https://forkify-api.herokuapp.com/api/v2/recipes/5ed6604591c37cdc054bc886");
     const data = await res.json();
-
     if (!res.ok) throw new Error(`${data.message} ${res.status}`);
     console.log(res, data);
-
     // let recipe = data.data.recipe;
-    let { recipe } = data.data;
+    let {recipe} = data.data;
     recipe = {
       id: recipe.id,
       title: recipe.title,
@@ -463,18 +465,127 @@ const showRecipes = async () => {
       image: recipe.image_url,
       cookingTime: recipe.cooking_time,
       serving: recipe.serving,
-      ingredients: recipe.ingredients,
+      ingredients: recipe.ingredients
     };
-
     console.log(recipe);
-
     // Rendering Recipe
     const markup = `
-    
-  <section class="seller">
-    <p class='seller__para card__heading'>
-        best sellers
-    </p>
-    <div class="cards cards__gap0">
-        <!-- 1 -->
-      
+        <section class="seller">
+            <p class='seller__para card__heading'>
+                ${recipe.title}
+            </p>
+            <div class="cards cards__gap0">
+                <div class="card card__border0">
+                    <img class='card__img' style='width: 100px' src='${recipe.image}'>
+                    <p class="card__heading">${recipe.title}</p>
+                    <p class="card__color">${recipe.serving}</p>
+                    <span class="card__price card__price--1">
+                        <s>
+                        $ ${recipe.cookingTime}
+                        </s>
+                    </span>
+                    <span class="card__price card__price--2">$ ${recipe.ingredients[2].quantity}</span>
+                </div>
+            </div>
+        </div>
+    `;
+    sellerContainer.insertAdjacentHTML('afterbegin', markup);
+  } catch (err) {
+    alert(err);
+  }
+};
+showRecipes();
+
+},{"@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","url:./img/icons.svg":"3xKjv"}],"5gA8y":[function(require,module,exports) {
+"use strict";
+
+exports.interopDefault = function (a) {
+  return a && a.__esModule ? a : {
+    default: a
+  };
+};
+
+exports.defineInteropFlag = function (a) {
+  Object.defineProperty(a, '__esModule', {
+    value: true
+  });
+};
+
+exports.exportAll = function (source, dest) {
+  Object.keys(source).forEach(function (key) {
+    if (key === 'default' || key === '__esModule') {
+      return;
+    } // Skip duplicate re-exports when they have the same value.
+
+
+    if (key in dest && dest[key] === source[key]) {
+      return;
+    }
+
+    Object.defineProperty(dest, key, {
+      enumerable: true,
+      get: function () {
+        return source[key];
+      }
+    });
+  });
+  return dest;
+};
+
+exports.export = function (dest, destName, get) {
+  Object.defineProperty(dest, destName, {
+    enumerable: true,
+    get: get
+  });
+};
+},{}],"3xKjv":[function(require,module,exports) {
+module.exports = require('./bundle-url').getBundleURL() + "icons.d7f16b7a.svg"
+},{"./bundle-url":"3seVR"}],"3seVR":[function(require,module,exports) {
+"use strict";
+
+/* globals document:readonly */
+var bundleURL = null;
+
+function getBundleURLCached() {
+  if (!bundleURL) {
+    bundleURL = getBundleURL();
+  }
+
+  return bundleURL;
+}
+
+function getBundleURL() {
+  try {
+    throw new Error();
+  } catch (err) {
+    var matches = ('' + err.stack).match(/(https?|file|ftp):\/\/[^)\n]+/g);
+
+    if (matches) {
+      return getBaseURL(matches[0]);
+    }
+  }
+
+  return '/';
+}
+
+function getBaseURL(url) {
+  return ('' + url).replace(/^((?:https?|file|ftp):\/\/.+)\/[^/]+$/, '$1') + '/';
+} // TODO: Replace uses with `new URL(url).origin` when ie11 is no longer supported.
+
+
+function getOrigin(url) {
+  let matches = ('' + url).match(/(https?|file|ftp):\/\/[^/]+/);
+
+  if (!matches) {
+    throw new Error('Origin not found');
+  }
+
+  return matches[0];
+}
+
+exports.getBundleURL = getBundleURLCached;
+exports.getBaseURL = getBaseURL;
+exports.getOrigin = getOrigin;
+},{}]},["2FmRy","6fOLN"], "6fOLN", "parcelRequiree8c9")
+
+//# sourceMappingURL=index.1397955d.js.map

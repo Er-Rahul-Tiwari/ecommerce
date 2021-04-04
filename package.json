@@ -21,7 +21,9 @@
   },
   "homepage": "https://github.com/Er-Rahul-Tiwari/Grid_Dashboard#readme",
   "dependencies": {
+    "core-js": "^3.10.0",
     "parcel": "^2.0.0-beta.2",
+    "regenerator-runtime": "^0.13.7",
     "sass": "^1.32.8"
   },
   "devDependencies": {

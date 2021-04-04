@@ -1057,6 +1057,10 @@ select {
   text-transform: uppercase;
   padding: 1.4rem;
 }
+.seller__icon {
+  width: 2rem;
+  height: 2rem;
+}
 
 .cards__gap0 {
   grid-gap: 0rem;

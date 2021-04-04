@@ -1,4 +1,4 @@
-21210
+21215
 84C:\Users\pc\Desktop\ecommerce\node_modules\core-js\stable\string\virtual\iterator.js121436361000000000 0
 62C:\Users\pc\Desktop\ecommerce\node_modules\ws\lib\extension.js121436361000000000 0
 98C:\Users\pc\Desktop\ecommerce\node_modules\posthtml\node_modules\htmlparser2\lib\WritableStream.js121436361000000000 0
@@ -40,7 +40,7 @@
 63C:\Users\pc\Desktop\ecommerce\node_modules\parse5\lib\tokenizer132619019855097980 1
 51C:\Users\pc\Desktop\ecommerce\node_modules\cssstyle132619022983024195 1
 70C:\Users\pc\Desktop\ecommerce\node_modules\@parcel\utils\lib\is-url.js121436361000000000 0
-34C:\Users\pc\Desktop\ecommerce\dist132619047665506562 1
+34C:\Users\pc\Desktop\ecommerce\dist132619086150915231 1
 99C:\Users\pc\Desktop\ecommerce\node_modules\postcss-modules-scope\node_modules\postcss\lib\parser.js121436361000000000 0
 110C:\Users\pc\Desktop\ecommerce\node_modules\postcss-normalize-charset\node_modules\postcss\docs\architecture.md121436361000000000 0
 47C:\Users\pc\Desktop\ecommerce\node_modules\csso132619021844921131 1
@@ -50,7 +50,7 @@
 79C:\Users\pc\Desktop\ecommerce\node_modules\es-abstract\2016\thisBooleanValue.js121436361000000000 0
 100C:\Users\pc\Desktop\ecommerce\node_modules\regenerate-unicode-properties\Script_Extensions\Common.js121436361000000000 0
 70C:\Users\pc\Desktop\ecommerce\node_modules\es-abstract\2015\WeekDay.js121436361000000000 0
-45C:\Users\pc\Desktop\ecommerce\sass\components132611373468897973 1
+45C:\Users\pc\Desktop\ecommerce\sass\components132619073280821805 1
 78C:\Users\pc\Desktop\ecommerce\node_modules\es-abstract\2019\thisStringValue.js121436361000000000 0
 106C:\Users\pc\Desktop\ecommerce\node_modules\uncss\node_modules\postcss-selector-parser\dist\__tests__\id.js121436361000000000 0
 61C:\Users\pc\Desktop\ecommerce\node_modules\sha.js\.travis.yml132619019296992974 0
@@ -64,7 +64,7 @@
 40C:\Users\pc\Desktop\ecommerce\.gitignore132619024463214351 0
 47C:\Users\pc\Desktop\ecommerce\node_modules\abab132619023286953513 1
 112C:\Users\pc\Desktop\ecommerce\node_modules\@parcel\package-manager\test\fixtures\packages\peers-2.0\package.json121436361000000000 0
-36C:\Users\pc\Desktop\ecommerce\app.js132619047662876712 0
+36C:\Users\pc\Desktop\ecommerce\app.js132619086030212318 0
 59C:\Users\pc\Desktop\ecommerce\node_modules\lodash\spread.js121436361000000000 0
 53C:\Users\pc\Desktop\ecommerce\node_modules\ansi-regex132619023282213788 1
 79C:\Users\pc\Desktop\ecommerce\node_modules\caniuse-lite\data\features\stream.js121436361000000000 0
@@ -119,7 +119,7 @@
 96C:\Users\pc\Desktop\ecommerce\node_modules\postcss-minify-selectors\node_modules\chalk\readme.md121436361000000000 0
 53C:\Users\pc\Desktop\ecommerce\node_modules\prelude-ls132619022144063532 1
 102C:\Users\pc\Desktop\ecommerce\node_modules\postcss-normalize-repeat-style\node_modules\chalk\readme.md121436361000000000 0
-33C:\Users\pc\Desktop\ecommerce\img132611373468757971 1
+33C:\Users\pc\Desktop\ecommerce\img132619064986084656 1
 115C:\Users\pc\Desktop\ecommerce\node_modules\postcss-normalize-timing-functions\node_modules\supports-color\readme.md121436361000000000 0
 101C:\Users\pc\Desktop\ecommerce\node_modules\postcss-normalize-string\node_modules\color-name\README.md131339336430000000 0
 67C:\Users\pc\Desktop\ecommerce\node_modules\lodash\_cloneDataView.js121436361000000000 0
@@ -145,7 +145,7 @@
 52C:\Users\pc\Desktop\ecommerce\node_modules\aws-sign2132619023248885745 1
 71C:\Users\pc\Desktop\ecommerce\node_modules\es-abstract\2018\ToObject.js121436361000000000 0
 95C:\Users\pc\Desktop\ecommerce\node_modules\jsdom\lib\jsdom\living\generated\DocumentFragment.js121436361000000000 0
-40C:\Users\pc\Desktop\ecommerce\index.html132619045463852069 0
+40C:\Users\pc\Desktop\ecommerce\index.html132619086146155515 0
 67C:\Users\pc\Desktop\ecommerce\node_modules\resolve\example\async.js121436361000000000 0
 88C:\Users\pc\Desktop\ecommerce\node_modules\core-js\internals\string-punycode-to-ascii.js121436361000000000 0
 39C:\Users\pc\Desktop\ecommerce\script.js132611373469088008 0
@@ -268,7 +268,7 @@
 84C:\Users\pc\Desktop\ecommerce\node_modules\uncss\node_modules\postcss\lib\postcss.js121436361000000000 0
 64C:\Users\pc\Desktop\ecommerce\node_modules\lodash\pullAllWith.js121436361000000000 0
 75C:\Users\pc\Desktop\ecommerce\node_modules\es-abstract\2015\ObjectCreate.js121436361000000000 0
-44C:\Users\pc\Desktop\ecommerce\sass\main.scss132611373469057966 0
+44C:\Users\pc\Desktop\ecommerce\sass\main.scss132619073453441596 0
 105C:\Users\pc\Desktop\ecommerce\node_modules\postcss-unique-selectors\node_modules\postcss\lib\warn-once.js121436361000000000 0
 70C:\Users\pc\Desktop\ecommerce\node_modules\browserify-des\package.json132619021934785845 0
 61C:\Users\pc\Desktop\ecommerce\node_modules\source-map-resolve132619021074441582 1
@@ -312,11 +312,10 @@
 107C:\Users\pc\Desktop\ecommerce\node_modules\postcss-discard-duplicates\node_modules\postcss\lib\warn-once.js121436361000000000 0
 82C:\Users\pc\Desktop\ecommerce\node_modules\core-js\proposals\string-code-points.js121436361000000000 0
 79C:\Users\pc\Desktop\ecommerce\node_modules\uri-js\dist\esnext\schemes\mailto.js121436361000000000 0
-93C:\Users\pc\Desktop\ecommerce\node_modules\serve-handler\node_modules\mime-types\package.json132619021907177471 0
 102C:\Users\pc\Desktop\ecommerce\node_modules\cssnano-util-raw-cache\node_modules\color-convert\README.md121436361000000000 0
 93C:\Users\pc\Desktop\ecommerce\node_modules\postcss-modules\node_modules\ansi-styles\readme.md131628273600000000 0
 79C:\Users\pc\Desktop\ecommerce\node_modules\cssnano-util-same-parent\LICENSE-MIT121436361000000000 0
-54C:\Users\pc\Desktop\ecommerce\sass\layout\_seller.scss132611373468967964 0
+54C:\Users\pc\Desktop\ecommerce\sass\layout\_seller.scss132619071092080491 0
 71C:\Users\pc\Desktop\ecommerce\node_modules\core-js\features\set\from.js121436361000000000 0
 54C:\Users\pc\Desktop\ecommerce\node_modules\signal-exit132619021900647856 1
 68C:\Users\pc\Desktop\ecommerce\node_modules\expand-brackets\README.md131194323160000000 0
@@ -430,6 +429,19 @@
 58C:\Users\pc\Desktop\ecommerce\node_modules\es-to-primitive132619022802974810 1
 112C:\Users\pc\Desktop\ecommerce\node_modules\cssnano-util-raw-cache\node_modules\postcss\lib\terminal-highlight.js121436361000000000 0
 81C:\Users\pc\Desktop\ecommerce\node_modules\url\node_modules\punycode\package.json132619021065882070 0
+82C:\Users\pc\Desktop\ecommerce\node_modules\url\node_modules\querystring\License.md129954980760000000 0
+94C:\Users\pc\Desktop\ecommerce\node_modules\postcss-reduce-transforms\node_modules\postcss\docs132619019238366417 1
+58C:\Users\pc\Desktop\ecommerce\node_modules\lodash\merge.js121436361000000000 0
+78C:\Users\pc\Desktop\ecommerce\node_modules\is-accessor-descriptor\package.json132619022825323469 0
+53C:\Users\pc\Desktop\ecommerce\node_modules\hsla-regex132619022897919208 1
+68C:\Users\pc\Desktop\ecommerce\node_modules\lodash\_baseSortedUniq.js121436361000000000 0
+102C:\Users\pc\Desktop\ecommerce\node_modules\caniuse-lite\data\features\private-methods-and-accessors.js121436361000000000 0
+64C:\Users\pc\Desktop\ecommerce\node_modules\object-keys\.eslintrc121436361000000000 0
+73C:\Users\pc\Desktop\ecommerce\node_modules\core-js\stable\array\concat.js121436361000000000 0
+111C:\Users\pc\Desktop\ecommerce\node_modules\posthtml\node_modules\domutils\node_modules\domhandler\lib\node.d.ts121436361000000000 0
+117C:\Users\pc\Desktop\ecommerce\node_modules\@parcel\transformer-html\node_modules\htmlparser2\lib\CollectingHandler.js121436361000000000 0
+59C:\Users\pc\Desktop\ecommerce\sass\components\_spinner.scss132619075796193841 0
+60C:\Users\pc\Desktop\ecommerce\node_modules\is-color-stop\lib132619019429495179 1
 56C:\Users\pc\Desktop\ecommerce\sass\base\_typography.scss132611373468847981 0
 113C:\Users\pc\Desktop\ecommerce\node_modules\postcss-normalize-whitespace\node_modules\postcss\docs\architecture.md121436361000000000 0
 101C:\Users\pc\Desktop\ecommerce\node_modules\postcss-minify-selectors\node_modules\color-name\README.md131339336430000000 0
@@ -1790,11 +1802,6 @@
 62C:\Users\pc\Desktop\ecommerce\node_modules\statuses\HISTORY.md131666749230000000 0
 52C:\Users\pc\Desktop\ecommerce\node_modules\hsl-regex132619022898559174 1
 70C:\Users\pc\Desktop\ecommerce\node_modules\cssnano-preset-default\dist132619018732984490 1
-82C:\Users\pc\Desktop\ecommerce\node_modules\url\node_modules\querystring\License.md129954980760000000 0
-94C:\Users\pc\Desktop\ecommerce\node_modules\postcss-reduce-transforms\node_modules\postcss\docs132619019238366417 1
-58C:\Users\pc\Desktop\ecommerce\node_modules\lodash\merge.js121436361000000000 0
-78C:\Users\pc\Desktop\ecommerce\node_modules\is-accessor-descriptor\package.json132619022825323469 0
-53C:\Users\pc\Desktop\ecommerce\node_modules\hsla-regex132619022897919208 1
 94C:\Users\pc\Desktop\ecommerce\node_modules\postcss-selector-parser\dist\selectors\universal.js121436361000000000 0
 83C:\Users\pc\Desktop\ecommerce\node_modules\csso\lib\replace\property\font-weight.js121436361000000000 0
 113C:\Users\pc\Desktop\ecommerce\node_modules\stylehacks\node_modules\postcss-selector-parser\dist\selectors\node.js121436361000000000 0
@@ -1900,7 +1907,6 @@
 86C:\Users\pc\Desktop\ecommerce\node_modules\@nodelib\fs.walk\out\readers\sync.spec.d.ts121436361000000000 0
 48C:\Users\pc\Desktop\ecommerce\node_modules\iferr132619022869770855 1
 104C:\Users\pc\Desktop\ecommerce\node_modules\postcss-unique-selectors\node_modules\postcss\lib\tokenize.js121436361000000000 0
-85C:\Users\pc\Desktop\ecommerce\node_modules\caniuse-lite\data\features\css-counters.js121436361000000000 0
 80C:\Users\pc\Desktop\ecommerce\node_modules\@babel\plugin-syntax-class-properties132619020896522050 1
 65C:\Users\pc\Desktop\ecommerce\node_modules\normalize-url\index.js131802907870000000 0
 74C:\Users\pc\Desktop\ecommerce\node_modules\caniuse-lite\data\regions\BM.js121436361000000000 0
@@ -2459,6 +2465,10 @@
 92C:\Users\pc\Desktop\ecommerce\node_modules\css-tree\lib\syntax\pseudo\common\selectorList.js121436361000000000 0
 107C:\Users\pc\Desktop\ecommerce\node_modules\regenerate-unicode-properties\General_Category\Decimal_Number.js121436361000000000 0
 49C:\Users\pc\Desktop\ecommerce\node_modules\pbkdf2132619021058832500 1
+56C:\Users\pc\Desktop\ecommerce\node_modules\shebang-regex132619021906347518 1
+79C:\Users\pc\Desktop\ecommerce\node_modules\es-abstract\2016\IsDataDescriptor.js121436361000000000 0
+84C:\Users\pc\Desktop\ecommerce\node_modules\@babel\runtime\helpers\esm\createSuper.js121012626000000000 0
+84C:\Users\pc\Desktop\ecommerce\node_modules\htmlparser2\node_modules\entities\LICENSE121436361000000000 0
 58C:\Users\pc\Desktop\ecommerce\node_modules\node-forge\dist132619020157140210 1
 57C:\Users\pc\Desktop\ecommerce\node_modules\sprintf-js\src132619018977601758 1
 107C:\Users\pc\Desktop\ecommerce\node_modules\postcss-ordered-values\node_modules\postcss-value-parser\LICENSE121436361000000000 0
@@ -2469,10 +2479,6 @@
 109C:\Users\pc\Desktop\ecommerce\node_modules\regenerate-unicode-properties\Binary_Property\Sentence_Terminal.js121436361000000000 0
 109C:\Users\pc\Desktop\ecommerce\node_modules\postcss-normalize-display-values\node_modules\postcss\package.json132619021711458966 0
 52C:\Users\pc\Desktop\ecommerce\node_modules\picomatch132619016086120146 1
-56C:\Users\pc\Desktop\ecommerce\node_modules\shebang-regex132619021906347518 1
-79C:\Users\pc\Desktop\ecommerce\node_modules\es-abstract\2016\IsDataDescriptor.js121436361000000000 0
-84C:\Users\pc\Desktop\ecommerce\node_modules\@babel\runtime\helpers\esm\createSuper.js121012626000000000 0
-84C:\Users\pc\Desktop\ecommerce\node_modules\htmlparser2\node_modules\entities\LICENSE121436361000000000 0
 74C:\Users\pc\Desktop\ecommerce\node_modules\@parcel\source-map\package.json132619022658243290 0
 52C:\Users\pc\Desktop\ecommerce\node_modules\regex-not132619021950364917 1
 59C:\Users\pc\Desktop\ecommerce\node_modules\postcss-colormin132619021835271698 1
@@ -5803,6 +5809,7 @@
 80C:\Users\pc\Desktop\ecommerce\node_modules\@parcel\optimizer-terser\node_modules132619023366648852 1
 80C:\Users\pc\Desktop\ecommerce\node_modules\serve-handler\node_modules\mime-types132619021927486292 1
 64C:\Users\pc\Desktop\ecommerce\node_modules\range-parser\index.js131092731580000000 0
+93C:\Users\pc\Desktop\ecommerce\node_modules\serve-handler\node_modules\mime-types\package.json132619021907177471 0
 79C:\Users\pc\Desktop\ecommerce\node_modules\postcss-discard-comments\LICENSE-MIT121436361000000000 0
 90C:\Users\pc\Desktop\ecommerce\node_modules\serve-handler\node_modules\mime-types\README.md131632715760000000 0
 88C:\Users\pc\Desktop\ecommerce\node_modules\serve-handler\node_modules\mime-db\HISTORY.md131632308570000000 0
@@ -7453,7 +7460,6 @@
 91C:\Users\pc\Desktop\ecommerce\node_modules\purgecss\node_modules\postcss\lib\lazy-result.js121436361000000000 0
 74C:\Users\pc\Desktop\ecommerce\node_modules\caniuse-lite\data\regions\SG.js121436361000000000 0
 93C:\Users\pc\Desktop\ecommerce\node_modules\purgecss\node_modules\postcss\lib\map-generator.js121436361000000000 0
-64C:\Users\pc\Desktop\ecommerce\node_modules\lodash\_baseKeysIn.js121436361000000000 0
 84C:\Users\pc\Desktop\ecommerce\node_modules\purgecss\node_modules\postcss\lib\node.js121436361000000000 0
 92C:\Users\pc\Desktop\ecommerce\node_modules\purgecss\node_modules\postcss\lib\previous-map.js121436361000000000 0
 89C:\Users\pc\Desktop\ecommerce\node_modules\purgecss\node_modules\postcss\lib\processor.js121436361000000000 0
@@ -7829,11 +7835,6 @@
 86C:\Users\pc\Desktop\ecommerce\node_modules\@babel\core\node_modules\json5\lib\index.js121436361000000000 0
 112C:\Users\pc\Desktop\ecommerce\node_modules\posthtml\node_modules\domutils\node_modules\domhandler\lib\index.d.ts121436361000000000 0
 110C:\Users\pc\Desktop\ecommerce\node_modules\posthtml\node_modules\domutils\node_modules\domhandler\lib\index.js121436361000000000 0
-68C:\Users\pc\Desktop\ecommerce\node_modules\lodash\_baseSortedUniq.js121436361000000000 0
-102C:\Users\pc\Desktop\ecommerce\node_modules\caniuse-lite\data\features\private-methods-and-accessors.js121436361000000000 0
-64C:\Users\pc\Desktop\ecommerce\node_modules\object-keys\.eslintrc121436361000000000 0
-73C:\Users\pc\Desktop\ecommerce\node_modules\core-js\stable\array\concat.js121436361000000000 0
-111C:\Users\pc\Desktop\ecommerce\node_modules\posthtml\node_modules\domutils\node_modules\domhandler\lib\node.d.ts121436361000000000 0
 115C:\Users\pc\Desktop\ecommerce\node_modules\posthtml\node_modules\domutils\node_modules\domhandler\lib\node.d.ts.map121436361000000000 0
 109C:\Users\pc\Desktop\ecommerce\node_modules\posthtml\node_modules\domutils\node_modules\domhandler\lib\node.js121436361000000000 0
 83C:\Users\pc\Desktop\ecommerce\node_modules\core-js\es\string\virtual\starts-with.js121436361000000000 0
@@ -8370,7 +8371,7 @@
 103C:\Users\pc\Desktop\ecommerce\node_modules\postcss-reduce-initial\node_modules\postcss\lib\processor.js121436361000000000 0
 105C:\Users\pc\Desktop\ecommerce\node_modules\postcss-reduce-initial\node_modules\postcss\lib\stringifier.js121436361000000000 0
 87C:\Users\pc\Desktop\ecommerce\node_modules\postcss-calc\node_modules\chalk\node_modules132619020715872662 1
-57C:\Users\pc\Desktop\ecommerce\dist\index.088b44af.css.map132619047665466564 0
+57C:\Users\pc\Desktop\ecommerce\dist\index.088b44af.css.map132619086150835259 0
 73C:\Users\pc\Desktop\ecommerce\node_modules\define-properties\CHANGELOG.md121436361000000000 0
 76C:\Users\pc\Desktop\ecommerce\node_modules\core-js\modules\es.reflect.has.js121436361000000000 0
 98C:\Users\pc\Desktop\ecommerce\node_modules\postcss-ordered-values\node_modules\color-name\index.js131446304070000000 0
@@ -9907,7 +9908,7 @@
 102C:\Users\pc\Desktop\ecommerce\node_modules\postcss-modules-values\node_modules\postcss\CONTRIBUTING.md121436361000000000 0
 98C:\Users\pc\Desktop\ecommerce\node_modules\postcss-modules-values\node_modules\postcss\gulpfile.js121436361000000000 0
 90C:\Users\pc\Desktop\ecommerce\node_modules\postcss-modules-values\node_modules\postcss\lib132619019295423068 1
-55C:\Users\pc\Desktop\ecommerce\node_modules\chokidar\lib132619016074530822 1
+55C:\Users\pc\Desktop\ecommerce\node_modules\chokidar\lib132619016075490757 1
 60C:\Users\pc\Desktop\ecommerce\node_modules\lodash\setWith.js121436361000000000 0
 69C:\Users\pc\Desktop\ecommerce\node_modules\lodash\fp\_falseOptions.js121436361000000000 0
 65C:\Users\pc\Desktop\ecommerce\node_modules\is-plain-obj\readme.md121436361000000000 0
@@ -10743,7 +10744,7 @@
 95C:\Users\pc\Desktop\ecommerce\node_modules\postcss-minify-font-values\dist\lib\minify-family.js121436361000000000 0
 93C:\Users\pc\Desktop\ecommerce\node_modules\postcss-minify-font-values\dist\lib\minify-font.js121436361000000000 0
 65C:\Users\pc\Desktop\ecommerce\node_modules\es-abstract\5\floor.js121436361000000000 0
-56C:\Users\pc\Desktop\ecommerce\dist\card2-2.7604cf6f.jpeg132619034141974760 0
+56C:\Users\pc\Desktop\ecommerce\dist\card2-2.7604cf6f.jpeg132619086150145276 0
 60C:\Users\pc\Desktop\ecommerce\node_modules\is-regex\index.js121436361000000000 0
 95C:\Users\pc\Desktop\ecommerce\node_modules\postcss-minify-font-values\dist\lib\minify-weight.js121436361000000000 0
 75C:\Users\pc\Desktop\ecommerce\node_modules\postcss-merge-rules\node_modules132619020844585097 1
@@ -10978,7 +10979,7 @@
 76C:\Users\pc\Desktop\ecommerce\node_modules\@parcel\core\src\public\Target.js121436361000000000 0
 75C:\Users\pc\Desktop\ecommerce\node_modules\@parcel\source-map\src\Mapping.h121436361000000000 0
 102C:\Users\pc\Desktop\ecommerce\node_modules\postcss-merge-longhand\node_modules\postcss\docs\guidelines132619019266834752 1
-53C:\Users\pc\Desktop\ecommerce\dist\hero4.4c987011.jpg132619047664666616 0
+53C:\Users\pc\Desktop\ecommerce\dist\hero4.4c987011.jpg132619086149775296 0
 101C:\Users\pc\Desktop\ecommerce\node_modules\postcss-merge-longhand\node_modules\postcss\docs\syntax.md121436361000000000 0
 97C:\Users\pc\Desktop\ecommerce\node_modules\postcss-merge-longhand\node_modules\has-flag\readme.md131593942790000000 0
 76C:\Users\pc\Desktop\ecommerce\node_modules\core-js\es\symbol\has-instance.js121436361000000000 0
@@ -11972,7 +11973,7 @@
 89C:\Users\pc\Desktop\ecommerce\node_modules\object.getownpropertydescriptors\.editorconfig121436361000000000 0
 122C:\Users\pc\Desktop\ecommerce\node_modules\@parcel\node-resolver-core\node_modules\is-number\node_modules\kind-of\index.js131375939560000000 0
 82C:\Users\pc\Desktop\ecommerce\node_modules\object.getownpropertydescriptors\.nycrc121436361000000000 0
-52C:\Users\pc\Desktop\ecommerce\dist\index.b4f5078c.js132619047665256575 0
+52C:\Users\pc\Desktop\ecommerce\dist\index.b4f5078c.js132619086150685243 0
 61C:\Users\pc\Desktop\ecommerce\node_modules\is-callable\.nycrc121436361000000000 0
 88C:\Users\pc\Desktop\ecommerce\node_modules\object.getownpropertydescriptors\package.json132619020977807271 0
 87C:\Users\pc\Desktop\ecommerce\node_modules\object.getownpropertydescriptors\polyfill.js121436361000000000 0
@@ -12688,6 +12689,7 @@
 71C:\Users\pc\Desktop\ecommerce\node_modules\lodash\_baseIsArrayBuffer.js121436361000000000 0
 67C:\Users\pc\Desktop\ecommerce\node_modules\@parcel\packager-raw\src132619020322880470 1
 65C:\Users\pc\Desktop\ecommerce\node_modules\lodash\_baseIsEqual.js121436361000000000 0
+64C:\Users\pc\Desktop\ecommerce\node_modules\lodash\_baseKeysIn.js121436361000000000 0
 60C:\Users\pc\Desktop\ecommerce\node_modules\lodash\_baseLt.js121436361000000000 0
 90C:\Users\pc\Desktop\ecommerce\node_modules\es-abstract\2019\GetPrototypeFromConstructor.js121436361000000000 0
 58C:\Users\pc\Desktop\ecommerce\node_modules\deep-is\LICENSE130533841730000000 0
@@ -12979,7 +12981,7 @@
 105C:\Users\pc\Desktop\ecommerce\node_modules\css-declaration-sorter\node_modules\color-convert\CHANGELOG.md121436361000000000 0
 97C:\Users\pc\Desktop\ecommerce\node_modules\@parcel\package-manager\test\fixtures\packages\foo-2.0132619018946652201 1
 64C:\Users\pc\Desktop\ecommerce\node_modules\lodash\fp\conforms.js121436361000000000 0
-53C:\Users\pc\Desktop\ecommerce\dist\hero6.541b3734.jpg132619047664596619 0
+53C:\Users\pc\Desktop\ecommerce\dist\hero6.541b3734.jpg132619086149775296 0
 66C:\Users\pc\Desktop\ecommerce\node_modules\lodash\fp\conformsTo.js121436361000000000 0
 94C:\Users\pc\Desktop\ecommerce\node_modules\@babel\types\lib\validators\isValidES3Identifier.js121012626000000000 0
 63C:\Users\pc\Desktop\ecommerce\node_modules\glob-parent\index.js121436361000000000 0
@@ -13095,7 +13097,7 @@
 90C:\Users\pc\Desktop\ecommerce\node_modules\color\node_modules\color-convert\conversions.js121436361000000000 0
 87C:\Users\pc\Desktop\ecommerce\node_modules\icss-utils\node_modules\ansi-styles\index.js131644568170000000 0
 63C:\Users\pc\Desktop\ecommerce\node_modules\lodash\fp\isMatch.js121436361000000000 0
-45C:\Users\pc\Desktop\ecommerce\dist\index.html132619037592685416 0
+45C:\Users\pc\Desktop\ecommerce\dist\index.html132619086150675231 0
 65C:\Users\pc\Desktop\ecommerce\node_modules\core-js\stable\reflect132619020626400846 1
 67C:\Users\pc\Desktop\ecommerce\node_modules\lodash\fp\isMatchWith.js121436361000000000 0
 64C:\Users\pc\Desktop\ecommerce\node_modules\lodash\fp\isNative.js121436361000000000 0
@@ -14176,8 +14178,6 @@
 99C:\Users\pc\Desktop\ecommerce\node_modules\is-core-module\.github\workflows\require-allow-edits.yml121436361000000000 0
 95C:\Users\pc\Desktop\ecommerce\node_modules\@parcel\transformer-posthtml\node_modules\domhandler132619023309872169 1
 67C:\Users\pc\Desktop\ecommerce\node_modules\is-color-stop\HISTORY.md131454395940000000 0
-117C:\Users\pc\Desktop\ecommerce\node_modules\@parcel\transformer-html\node_modules\htmlparser2\lib\CollectingHandler.js121436361000000000 0
-60C:\Users\pc\Desktop\ecommerce\node_modules\is-color-stop\lib132619019429495179 1
 61C:\Users\pc\Desktop\ecommerce\node_modules\is-color-stop\util132619019464883105 1
 69C:\Users\pc\Desktop\ecommerce\node_modules\is-color-stop\util\unit.js131454240090000000 0
 69C:\Users\pc\Desktop\ecommerce\node_modules\is-color-stop\lib\isHex.js131454240610000000 0
@@ -14510,6 +14510,7 @@
 64C:\Users\pc\Desktop\ecommerce\node_modules\htmlnano\node_modules132619020849564793 1
 79C:\Users\pc\Desktop\ecommerce\node_modules\@babel\types\lib\ast-types\generated132619018957542872 1
 64C:\Users\pc\Desktop\ecommerce\node_modules\htmlnano\package.json132619020953768673 0
+53C:\Users\pc\Desktop\ecommerce\dist\icons.d7f16b7a.svg132619086150635241 0
 80C:\Users\pc\Desktop\ecommerce\node_modules\@babel\runtime\helpers\toPrimitive.js121012626000000000 0
 92C:\Users\pc\Desktop\ecommerce\node_modules\expand-brackets\node_modules\debug\.coveralls.yml131419593830000000 0
 78C:\Users\pc\Desktop\ecommerce\node_modules\core-js\internals\inspect-source.js121436361000000000 0
@@ -14889,7 +14890,7 @@
 77C:\Users\pc\Desktop\ecommerce\node_modules\highlight.js\lib\languages\ruby.js121436361000000000 0
 76C:\Users\pc\Desktop\ecommerce\node_modules\highlight.js\lib\languages\sas.js121436361000000000 0
 78C:\Users\pc\Desktop\ecommerce\node_modules\highlight.js\lib\languages\scala.js121436361000000000 0
-53C:\Users\pc\Desktop\ecommerce\dist\hero5.4b68e725.jpg132619034142924700 0
+53C:\Users\pc\Desktop\ecommerce\dist\hero5.4b68e725.jpg132619086149865299 0
 79C:\Users\pc\Desktop\ecommerce\node_modules\highlight.js\lib\languages\scheme.js121436361000000000 0
 77C:\Users\pc\Desktop\ecommerce\node_modules\highlight.js\lib\languages\scss.js121436361000000000 0
 82C:\Users\pc\Desktop\ecommerce\node_modules\core-js\features\symbol\to-primitive.js121436361000000000 0
@@ -16214,7 +16215,7 @@
 74C:\Users\pc\Desktop\ecommerce\node_modules\caniuse-lite\data\regions\UZ.js121436361000000000 0
 65C:\Users\pc\Desktop\ecommerce\node_modules\diffie-hellman\LICENSE121436361000000000 0
 81C:\Users\pc\Desktop\ecommerce\node_modules\coa\node_modules\has-flag\package.json132619023173240190 0
-56C:\Users\pc\Desktop\ecommerce\dist\seller5.42de4ebc.webp132619047664896603 0
+56C:\Users\pc\Desktop\ecommerce\dist\seller5.42de4ebc.webp132619086150425266 0
 70C:\Users\pc\Desktop\ecommerce\node_modules\diffie-hellman\node_modules132619020761499978 1
 70C:\Users\pc\Desktop\ecommerce\node_modules\diffie-hellman\package.json132619021931266051 0
 76C:\Users\pc\Desktop\ecommerce\node_modules\diffie-hellman\node_modules\bn.js132619022980834332 1
@@ -16289,7 +16290,7 @@
 85C:\Users\pc\Desktop\ecommerce\node_modules\@babel\runtime\helpers\asyncToGenerator.js121012626000000000 0
 63C:\Users\pc\Desktop\ecommerce\node_modules\debug\src\browser.js121436361000000000 0
 61C:\Users\pc\Desktop\ecommerce\node_modules\debug\src\index.js121436361000000000 0
-56C:\Users\pc\Desktop\ecommerce\dist\card3-1.bf6d671e.jpeg132619047664656619 0
+56C:\Users\pc\Desktop\ecommerce\dist\card3-1.bf6d671e.jpeg132619086149775296 0
 60C:\Users\pc\Desktop\ecommerce\node_modules\debug\src\node.js121436361000000000 0
 65C:\Users\pc\Desktop\ecommerce\node_modules\data-urls\lib\utils.js121436361000000000 0
 112C:\Users\pc\Desktop\ecommerce\node_modules\cssnano-preset-default\node_modules\postcss\docs\guidelines\plugin.md121436361000000000 0
@@ -16348,6 +16349,7 @@
 74C:\Users\pc\Desktop\ecommerce\node_modules\cssstyle\lib\properties\left.js121436361000000000 0
 83C:\Users\pc\Desktop\ecommerce\node_modules\cssstyle\lib\properties\lightingColor.js121436361000000000 0
 80C:\Users\pc\Desktop\ecommerce\node_modules\cssstyle\lib\properties\lineHeight.js121436361000000000 0
+69C:\Users\pc\Desktop\ecommerce\.autogit\logs\log-3-3-2021-12-31-28.txt132619068888623297 0
 81C:\Users\pc\Desktop\ecommerce\node_modules\core-js\features\number\from-string.js121436361000000000 0
 82C:\Users\pc\Desktop\ecommerce\node_modules\cssstyle\lib\properties\marginBottom.js121436361000000000 0
 75C:\Users\pc\Desktop\ecommerce\node_modules\core-js\internals\descriptors.js121436361000000000 0
@@ -16748,7 +16750,7 @@
 82C:\Users\pc\Desktop\ecommerce\node_modules\core-js\stable\symbol\async-iterator.js121436361000000000 0
 83C:\Users\pc\Desktop\ecommerce\node_modules\css-tree\lib\syntax\pseudo\common\nth.js121436361000000000 0
 95C:\Users\pc\Desktop\ecommerce\node_modules\css-tree\lib\syntax\pseudo\common\nthWithOfClause.js121436361000000000 0
-56C:\Users\pc\Desktop\ecommerce\dist\index.b4f5078c.js.map132619047665466564 0
+56C:\Users\pc\Desktop\ecommerce\dist\index.b4f5078c.js.map132619086150875242 0
 114C:\Users\pc\Desktop\ecommerce\node_modules\@babel\helper-define-polyfill-provider\node_modules\semver\package.json132619020889482492 0
 93C:\Users\pc\Desktop\ecommerce\node_modules\@parcel\reporter-dev-server\lib\templates\500.html121436361000000000 0
 78C:\Users\pc\Desktop\ecommerce\node_modules\css-tree\lib\syntax\node\AnPlusB.js121436361000000000 0
@@ -18048,7 +18050,7 @@
 84C:\Users\pc\Desktop\ecommerce\node_modules\@babel\helper-replace-supers\package.json132619021219203063 0
 65C:\Users\pc\Desktop\ecommerce\node_modules\color-convert\index.js121436361000000000 0
 64C:\Users\pc\Desktop\ecommerce\node_modules\color-convert\LICENSE121436361000000000 0
-53C:\Users\pc\Desktop\ecommerce\dist\hero2.1150d629.jpg132619047664896603 0
+53C:\Users\pc\Desktop\ecommerce\dist\hero2.1150d629.jpg132619086150385266 0
 95C:\Users\pc\Desktop\ecommerce\node_modules\@babel\plugin-proposal-class-properties\lib\index.js121012626000000000 0
 78C:\Users\pc\Desktop\ecommerce\node_modules\@nodelib\fs.scandir\src\utils\fs.ts121436361000000000 0
 69C:\Users\pc\Desktop\ecommerce\node_modules\color-convert\package.json132619023163490760 0
@@ -18270,6 +18272,7 @@
 83C:\Users\pc\Desktop\ecommerce\node_modules\caniuse-lite\data\features\css-canvas.js121436361000000000 0
 93C:\Users\pc\Desktop\ecommerce\node_modules\caniuse-lite\data\features\css-case-insensitive.js121436361000000000 0
 95C:\Users\pc\Desktop\ecommerce\node_modules\caniuse-lite\data\features\css-content-visibility.js121436361000000000 0
+85C:\Users\pc\Desktop\ecommerce\node_modules\caniuse-lite\data\features\css-counters.js121436361000000000 0
 88C:\Users\pc\Desktop\ecommerce\node_modules\caniuse-lite\data\features\css-crisp-edges.js121436361000000000 0
 87C:\Users\pc\Desktop\ecommerce\node_modules\caniuse-lite\data\features\css-cross-fade.js121436361000000000 0
 93C:\Users\pc\Desktop\ecommerce\node_modules\caniuse-lite\data\features\css-deviceadaptation.js121436361000000000 0
@@ -19720,7 +19723,7 @@
 75C:\Users\pc\Desktop\ecommerce\node_modules\@parcel\packager-js\package.json132619020920850606 0
 66C:\Users\pc\Desktop\ecommerce\node_modules\@parcel\packager-js\src132619018715275520 1
 77C:\Users\pc\Desktop\ecommerce\node_modules\@parcel\packager-js\src\prelude.js121436361000000000 0
-57C:\Users\pc\Desktop\ecommerce\dist\customer1.12529209.jpg132619047665016605 0
+57C:\Users\pc\Desktop\ecommerce\dist\customer1.12529209.jpg132619086150145276 0
 80C:\Users\pc\Desktop\ecommerce\node_modules\@parcel\packager-js\lib\JSPackager.js121436361000000000 0
 77C:\Users\pc\Desktop\ecommerce\node_modules\@parcel\packager-js\lib\prelude.js121436361000000000 0
 68C:\Users\pc\Desktop\ecommerce\node_modules\@parcel\packager-html\lib132619018707995961 1
@@ -20810,7 +20813,7 @@
 91C:\Users\pc\Desktop\ecommerce\node_modules\@babel\plugin-proposal-private-methods\README.md121012626000000000 0
 94C:\Users\pc\Desktop\ecommerce\node_modules\@babel\plugin-proposal-private-methods\lib\index.js121012626000000000 0
 100C:\Users\pc\Desktop\ecommerce\node_modules\@babel\plugin-proposal-optional-chaining\lib\index.js.map121012626000000000 0
-43C:\Users\pc\Desktop\ecommerce\.autogit\logs132619011648001135 1
+43C:\Users\pc\Desktop\ecommerce\.autogit\logs132619068888603283 1
 96C:\Users\pc\Desktop\ecommerce\node_modules\@babel\plugin-proposal-optional-catch-binding\LICENSE121012626000000000 0
 101C:\Users\pc\Desktop\ecommerce\node_modules\@babel\plugin-proposal-optional-catch-binding\package.json132619020872693437 0
 98C:\Users\pc\Desktop\ecommerce\node_modules\@babel\plugin-proposal-optional-catch-binding\README.md121012626000000000 0
@@ -21138,7 +21141,7 @@
 60C:\Users\pc\Desktop\ecommerce\node_modules\.bin\purgecss.cmd132619023378248133 0
 60C:\Users\pc\Desktop\ecommerce\node_modules\.bin\purgecss.ps1132619023378248133 0
 63C:\Users\pc\Desktop\ecommerce\node_modules\.bin\regjsparser.cmd132619023362329062 0
-56C:\Users\pc\Desktop\ecommerce\dist\card3-3.8be8e54e.jpeg132619047664666616 0
+56C:\Users\pc\Desktop\ecommerce\dist\card3-3.8be8e54e.jpeg132619086150405264 0
 63C:\Users\pc\Desktop\ecommerce\node_modules\.bin\regjsparser.ps1132619023362329062 0
 54C:\Users\pc\Desktop\ecommerce\node_modules\.bin\rimraf132619023378788096 0
 56C:\Users\pc\Desktop\ecommerce\node_modules\.bin\sass.ps1132619016088899984 0
@@ -21178,6 +21181,7 @@
 46C:\Users\pc\Desktop\ecommerce\img\house-1.jpeg132611373468548033 0
 46C:\Users\pc\Desktop\ecommerce\img\house-2.jpeg132611373468577984 0
 46C:\Users\pc\Desktop\ecommerce\img\house-4.jpeg132611373468647983 0
+43C:\Users\pc\Desktop\ecommerce\img\icons.svg132619065028061675 0
 46C:\Users\pc\Desktop\ecommerce\img\seller1.webp132611373468667999 0
 46C:\Users\pc\Desktop\ecommerce\img\seller3.webp132611373468697994 0
 46C:\Users\pc\Desktop\ecommerce\img\seller4.webp132611373468707979 0
@@ -21197,15 +21201,16 @@
 59C:\Users\pc\Desktop\ecommerce\img\hero3_files\main.built.js132611373468268071 0
 55C:\Users\pc\Desktop\ecommerce\img\hero3_files\modal.css132611373468298104 0
 64C:\Users\pc\Desktop\ecommerce\img\hero3_files\overview.built.css132611373468368442 0
-67C:\Users\pc\Desktop\ecommerce\dist\angular2-logo-white.20a0d02f.png132619047664886624 0
-57C:\Users\pc\Desktop\ecommerce\dist\card3-2a.a06d1f8a.jpeg132619047664896603 0
-57C:\Users\pc\Desktop\ecommerce\dist\customer2.269e138f.jpg132619047665016605 0
-57C:\Users\pc\Desktop\ecommerce\dist\customer3.168dce80.jpg132619035996885673 0
-53C:\Users\pc\Desktop\ecommerce\dist\hero3.3976e952.jpg132619047664886624 0
-53C:\Users\pc\Desktop\ecommerce\dist\index.088b44af.css132619047665256575 0
-52C:\Users\pc\Desktop\ecommerce\dist\index.1397955d.js132619047665256575 0
-56C:\Users\pc\Desktop\ecommerce\dist\index.1397955d.js.map132619047665466564 0
-56C:\Users\pc\Desktop\ecommerce\dist\seller1.45855e17.webp132619047664896603 0
-56C:\Users\pc\Desktop\ecommerce\dist\seller3.f944fc7f.webp132619036462188320 0
-56C:\Users\pc\Desktop\ecommerce\dist\seller6.28a8cd94.webp132619036462188320 0
+67C:\Users\pc\Desktop\ecommerce\dist\angular2-logo-white.20a0d02f.png132619086150375259 0
+57C:\Users\pc\Desktop\ecommerce\dist\card3-2a.a06d1f8a.jpeg132619086149785295 0
+57C:\Users\pc\Desktop\ecommerce\dist\customer2.269e138f.jpg132619086150145276 0
+57C:\Users\pc\Desktop\ecommerce\dist\customer3.168dce80.jpg132619086150155274 0
+53C:\Users\pc\Desktop\ecommerce\dist\hero3.3976e952.jpg132619086150405264 0
+53C:\Users\pc\Desktop\ecommerce\dist\index.088b44af.css132619086150685243 0
+52C:\Users\pc\Desktop\ecommerce\dist\index.1397955d.js132619086150695234 0
+56C:\Users\pc\Desktop\ecommerce\dist\index.1397955d.js.map132619086150865247 0
+56C:\Users\pc\Desktop\ecommerce\dist\seller1.45855e17.webp132619086150415263 0
+56C:\Users\pc\Desktop\ecommerce\dist\seller3.f944fc7f.webp132619086150145276 0
+56C:\Users\pc\Desktop\ecommerce\dist\seller6.28a8cd94.webp132619086150375259 0
 51C:\Users\pc\Desktop\ecommerce\.autogit\autogit.json132619011648021143 0
+68C:\Users\pc\Desktop\ecommerce\.autogit\logs\log-3-3-2021-12-0-44.txt132619050449615000 0

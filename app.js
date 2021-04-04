@@ -1,12 +1,27 @@
 // import  icons from './img/icons'; // Parcel 1
-import  icons from 'url:./img/icons.svg'; // Parcel 2
-console.log(icons);
+import icons from "url:./img/icons.svg"; // Parcel 2
+import 'core-js/stable';
+import 'regenerator-runtime/runtime';
 
-const sellerContainer = document.querySelector('.seller');
+// DOM
+const sellerContainer = document.querySelector(".seller");
 
+// Render Spinner
+const renderSpinner = (parentEl) => {
+  const markup = `
+    <svg class='seller__icon'>
+        <use href='${icons}#icon-loader'></use>
+    </svg>
+    `;
+  parentEl.innerHTML = "";
+  parentEl.insertAdjacentHTML("afterbegin", markup);
+};
+
+// API CALL
 const showRecipes = async () => {
   try {
     //   Loading Recipe
+    renderSpinner(sellerContainer);
     const res = await fetch(
       "https://forkify-api.herokuapp.com/api/v2/recipes/5ed6604591c37cdc054bc886"
     );
@@ -46,15 +61,22 @@ const showRecipes = async () => {
                         $ ${recipe.cookingTime}
                         </s>
                     </span>
-                    <span class="card__price card__price--2">$ ${recipe.ingredients[2].quantity}</span>
+                    <span class="card__price card__price--2">
+                    <svg class='seller__icon'>
+                        <use href='${icons}#icon-clock'></use>
+                    </svg> 
+                    ${recipe.ingredients[2].quantity}
+                    </span>
                 </div>
             </div>
         </div>
     `;
-    sellerContainer.insertAdjacentHTML('afterbegin',markup);
+    sellerContainer.innerHTML = "";
+    sellerContainer.insertAdjacentHTML("afterbegin", markup);
   } catch (err) {
     alert(err);
   }
 };
 
+// function Call
 showRecipes();
